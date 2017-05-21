@@ -1,0 +1,215 @@
+/**
+* fileName: style.css
+*
+* fileRemark：层叠样式表
+*
+* author: changjiu Huang
+*
+* email: 99795427@qq.com
+*
+* create log 2017年5月21日17:55:00
+*
+* update log 2017年5月21日18:00:00
+*
+**/
+
+
+
+/* 基本样式 */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: small;
+  text-align: center;
+  background: url("../images/BGTile.jpg") repeat left top;
+}
+
+
+a:link {
+  padding: 0 0 1px 0;
+  text-decoration: none;
+  color: #CC3300;
+  background: url("../images/underline.gif") no-repeat left bottom;
+}
+
+a:visited {
+  padding: 0 0 2px 0;
+  text-decoration: none;
+  color: #666;
+  background: url("../images/underline.gif") no-repeat left bottom;
+}
+
+
+h3 {
+  display: none;
+}
+
+/* page-wrapper 部分 */
+.page-wrapper {
+  width: 780px;
+  padding: 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  background: url("../images/ContentBG.gif") repeat-y left top;
+}
+
+
+.intro {
+  position: relative;
+}
+
+
+header {
+  height: 444px;
+  background: url("../images/CSZenLogo.gif") no-repeat left;
+  z-index: 99;
+}
+
+
+header h1, header h2 {
+  display: none;
+}
+
+
+.preamble {
+  position: absolute;
+  left: 410px;
+  top: 15px;
+  width: 405px;
+  font-size: small;
+  font-style: italic;
+  letter-spacing: 2px;
+  background: url("../images/RoadToEnlightmentBG_2.gif") no-repeat left bottom; 
+}
+
+.preamble p {
+  padding: 8px 70px 0 70px;
+  margin: 0;
+}
+
+.preamble p:nth-child(2) {
+  background: url("../images/RoadToEnlightmentBG_1.gif") no-repeat right top;
+  padding-top: 10px;
+}
+
+.preamble p:nth-child(4) {
+  padding-bottom: 20px;
+}
+
+
+.summary {
+  position: absolute;
+  left: 38px;
+  top: 515px;
+  width: 250px;
+  font-size: small;
+  text-align: right;
+  letter-spacing: 2px;
+  z-index: 5;
+}
+
+
+.explanation {
+  padding: 40px 0 0 30px;
+  background: url("../images/SoWhatIsThisAbout.gif") no-repeat left top;
+}
+
+.explanation p {
+  margin: 0 50px 0 280px;
+}
+
+.participation {
+  margin: 35px 0 0 150px;
+  background: url("../images/Participation.gif") no-repeat left top;
+}
+
+.participation p {
+  margin: 0 50px 0 160px;
+}
+
+.benefits {
+  margin: 40px 0 0 195px;
+  background: url("../images/Benefits.gif") no-repeat left top;
+}
+
+.benefits p {
+  margin: 0 50px 0 115px;
+}
+
+.requirements {
+  margin: 40px 0 0 140px;
+  background: url("../images/Requirements.gif") no-repeat left top;
+}
+
+.requirements p {
+  margin: 0 50px 0 170px;
+}
+
+.requirements p:nth-child(6) {
+  padding-top: 30px;
+  font-size: 10px;
+}
+
+
+footer {
+  padding-left: 160px;
+  margin-top: -13px;
+  font-size: small;
+}
+
+
+.sidebar {
+  width: 729px;
+  padding: 0;
+  margin: 40px auto;
+  font-size: small;
+  background: url("../images/NavBG.gif") no-repeat left bottom;
+}
+
+.sidebar .wrapper {
+  width: 729px;
+  padding: 5px 0;
+  background: url("../images/NavBG_top.gif") no-repeat left top;
+}
+
+ .design-selection {
+  margin: 0 0 0 20px;
+  background: url("../images/SelectADesign.gif") no-repeat left center;
+}
+
+.sidebar ul {
+  display: block;
+  padding: 0 60px 0 120px;
+  margin: 0;
+  line-height: 20px;
+}
+
+.sidebar ul li {
+  display: inline;
+  list-style: none;
+}
+
+.design-archives {
+  padding: 8px 0;
+  margin: 10px 0 10px 20px;
+  background: url("../images/Archive.gif") no-repeat left top;
+}
+
+.zen-resources {
+  padding: 8px 0;
+  margin: 10px 0 10px 20px;
+  background: url("../images/Resources.gif") no-repeat left top;
+}
+
+/* 龙-图片 */
+.extra1 {
+  position: relative;
+  left: -360px;
+  top: -225px;
+  width: 96px;
+  height: 206px;
+  margin: 0 auto;
+  background: url("../images/Dragon.gif") no-repeat left top;
+}
